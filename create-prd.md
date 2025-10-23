@@ -4,6 +4,24 @@
 
 To guide an AI assistant in creating a detailed Product Requirements Document (PRD) in Markdown format, based on an initial user prompt. The PRD should be clear, actionable, and suitable for a junior developer to understand and implement the feature.
 
+## Agent-First Workflow (CRITICAL)
+
+**BEFORE starting PRD creation, consider delegating to specialized MCP agents:**
+
+1. **business-analyst agent** - For complex requirements gathering, stakeholder analysis, and business process mapping
+2. **spec-writer agent** - For generating comprehensive technical specifications and user stories
+
+**When to use agents:**
+- Complex features requiring extensive requirements gathering → business-analyst
+- Features needing formal technical specifications → spec-writer
+- Multi-stakeholder features requiring analysis → business-analyst
+
+**If you choose to proceed without agents, you must still:**
+- Apply the 95% certainty rule before answering
+- Ask clarifying questions when requirements are unclear
+- Think deeply about the problem space
+- Suggest alternative approaches if you identify better solutions
+
 ## Process
 
 1.  **Receive Initial Prompt:** The user provides a brief description or request for a new feature or functionality.
@@ -36,8 +54,18 @@ The generated PRD should include the following sections:
 5.  **Non-Goals (Out of Scope):** Clearly state what this feature will *not* include to manage scope.
 6.  **Design Considerations (Optional):** Link to mockups, describe UI/UX requirements, or mention relevant components/styles if applicable.
 7.  **Technical Considerations (Optional):** Mention any known technical constraints, dependencies, or suggestions (e.g., "Should integrate with the existing Auth module").
-8.  **Success Metrics:** How will the success of this feature be measured? (e.g., "Increase user engagement by 10%", "Reduce support tickets related to X").
-9.  **Open Questions:** List any remaining questions or areas needing further clarification.
+8.  **Quality Standards (FutureTranz Required):**
+    - Code style requirements (formatting, type hints, documentation)
+    - Testing requirements (unit tests, integration tests, coverage targets)
+    - Security considerations (authentication, authorization, data validation)
+    - Performance targets (response times, resource limits)
+    - Accessibility requirements (WCAG compliance level if UI feature)
+9.  **Compliance & Documentation:**
+    - Regulatory requirements if applicable (GDPR, HIPAA, etc.)
+    - Documentation standards to follow
+    - Audit trail requirements
+10. **Success Metrics:** How will the success of this feature be measured? (e.g., "Increase user engagement by 10%", "Reduce support tickets related to X").
+11. **Open Questions:** List any remaining questions or areas needing further clarification.
 
 ## Target Audience
 

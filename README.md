@@ -1,8 +1,10 @@
-# 🚀 AI Dev Tasks 🤖
+# AI Dev Tasks - FutureTranz Edition
 
-Welcome to **AI Dev Tasks**! This repository provides a collection of markdown files designed to supercharge your feature development workflow with AI-powered IDEs and CLIs. Originally built for [Cursor](https://cursor.sh/), these tools work with any AI coding assistant including Claude Code, Windsurf, and others. By leveraging these structured prompts, you can systematically approach building features, from ideation to implementation, with built-in checkpoints for verification.
+**Enterprise-Grade AI-Assisted Development Workflow**
 
-Stop wrestling with monolithic AI requests and start guiding your AI collaborator step-by-step!
+This repository provides FutureTranz's customized collection of markdown templates for structured AI-assisted feature development. Enhanced with MCP agent integration, task logging, and enterprise quality standards, these templates transform complex development work into systematic, auditable workflows.
+
+Built on proven methodologies and enhanced for professional software development with Claude Code and other AI coding assistants.
 
 ## ✨ The Core Idea
 
@@ -104,12 +106,15 @@ If you'd like to see this in action, I demonstrated it on [Claire Vo's "How I AI
 * **Manages Complexity:** Breaks down large features into smaller, digestible tasks for the AI, reducing the chance of it getting lost or generating overly complex, incorrect code.
 * **Improved Reliability:** Offers a more dependable approach to leveraging AI for significant development work compared to single, large prompts.
 * **Clear Progress Tracking:** Provides a visual representation of completed tasks, making it easy to see how much has been done and what's next.
+* **MCP Agent Integration:** Leverages specialized agents (project-manager, security-reviewer, code-reviewer, etc.) for expert assistance at each phase.
+* **Enterprise Audit Trail:** Built-in task logging with timestamps and execution summaries for compliance and billing documentation.
+* **Quality Gates:** Enforces 95% certainty rule, mandatory clarifying questions, and deep thinking requirements.
 
 ## 🛠️ How to Use
 
 1. **Clone or Download:** Get these `.md` files into your project or a central location where your AI tool can access them.
    ```bash
-   git clone https://github.com/snarktank/ai-dev-tasks.git
+   git clone https://github.com/victorjquinones/ai-dev-tasks.git
    ```
 2. **Follow the Workflow:** Systematically use the `.md` files in your AI assistant as described in the workflow above.
 3. **Adapt and Iterate:**

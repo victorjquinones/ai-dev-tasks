@@ -4,6 +4,24 @@
 
 To guide an AI assistant in creating a detailed, step-by-step task list in Markdown format based on an existing Product Requirements Document (PRD). The task list should guide a developer through implementation.
 
+## Agent-First Workflow (CRITICAL)
+
+**BEFORE starting task generation, consider delegating to specialized MCP agents:**
+
+1. **project-manager agent** - For comprehensive sprint planning, task estimation, and resource allocation
+2. **spec-writer agent** - For breaking down complex specifications into user stories and tasks
+
+**When to use agents:**
+- Large features requiring sprint planning → project-manager (plan_sprint)
+- Features needing detailed time/effort estimates → project-manager (estimate_tasks)
+- Complex technical requirements → spec-writer
+
+**If proceeding without agents:**
+- Apply deep thinking to task breakdown
+- Consider team capacity and velocity
+- Ensure tasks are properly sized (not too large, not too granular)
+- Include quality gates and review checkpoints
+
 ## Output
 
 - **Format:** Markdown (`.md`)
